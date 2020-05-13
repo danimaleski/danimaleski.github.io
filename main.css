@@ -1,17 +1,54 @@
-body{
-    font-family: helvetica;
+/*Background*/
+body {   
+    background-image: url("port.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: aliceblue;
+    margin: 0;
+    height: 100%x;
+    width: 100%;
 }
-ul{
-    font-family: monospace;
+
+.backoverlay {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .7;
+    position: absolute;
 }
-/*li{
-    list-style: circle;
-}
-.list{
-    list-style: square;
-}*/
-#date{
-    font-size: 12px;
-    font-style: italic;
+
+/*Texto*/
+.title-portfolio {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    margin: 200px 0 0px 100px;
+    color: white;
     font-weight: bold;
 }
+
+h1 {
+    font-size: 70px;
+    margin: -10px 0px 0px 0px;
+}
+
+h1.title-port-name {
+    color:   #d1f2eb;
+}
+
+h1#nametitle {
+    color:  #fadbd8 ;
+}
+
+/*Links*/
+
+.links-portfolio a{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 10px -80px 0px 100px;
+}
+
+
